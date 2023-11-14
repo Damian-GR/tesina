@@ -1,0 +1,37 @@
+header {
+    background-color: #49708a;
+    color: #eae2cf;
+    padding: 10px 0;
+    margin: 0rem 0rem 3rem 0rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #eae2cf;
+    font-weight: bold;
+}
+
+a:hover {
+    border-bottom: 2px solid #eae2cf;
+}

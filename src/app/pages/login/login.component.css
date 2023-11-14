@@ -6,7 +6,7 @@
 	width: 50%;
 	height: 75vh;
 	margin:auto;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 	position:relative;
 	background:url(https://www.heraldo.mx/wp-content/uploads/2019/09/universidad-autonoma-de-aguascalientes-uaa-7.jpg) no-repeat center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
@@ -16,7 +16,7 @@
 	height:100%;
 	position:absolute;
 	padding: 2rem 1rem;
-	background:rgba(40,57,101,.9);
+	background:rgba(136, 171, 194,.9);
 }
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{
@@ -42,7 +42,7 @@
 	text-transform:uppercase;
 }
 .login-html .tab{
-	font-size:22px;
+	font-size: larger;
 	margin-right:15px;
 	padding-bottom:5px;
 	margin:0 15px 10px 0;
@@ -51,8 +51,8 @@
 }
 .login-html .sign-in:checked + .tab,
 .login-html .sign-up:checked + .tab{
-	color:#fff;
-	border-color:#1161ee;
+	color:#eae2cf;
+	border-color:rgba(59, 59, 59,.4);
 }
 .login-form{
 	width: 100%;
@@ -71,7 +71,7 @@
 .login-form .group .button{
 	width:100%;
 	max-width: 100%;
-	color:#fff;
+	color:#eae2cf;
 	display:block;
 }
 .login-form .group .input,
@@ -81,7 +81,7 @@
 	max-width: 100%;
 	padding:.6rem .5rem;
 	border-radius:25px;
-	background:rgba(255,255,255,.1);	
+	background:rgba(59, 59, 59,.4);	
 }
 
 .login-form .group .input{
@@ -90,7 +90,7 @@
 	max-width: 100%;
 	padding:.6rem .5rem;
 	border-radius:25px;
-	background:rgba(255,255,255,.1);	
+	background:rgba(59, 59, 59,.4);	
 }
 
 .login-form .group input[data-type="password"]{
@@ -98,11 +98,11 @@
 	width: 100%;
 }
 .login-form .group .label{
-	color:#aaa;
+	color:#eae2cf;
 	font-size:12px;
 }
 .login-form .group .button{
-	background:#1161ee;
+	background:#49708a;
 }
 .login-form .group label .icon{
 	width:15px;
@@ -110,14 +110,14 @@
 	border-radius:2px;
 	position:relative;
 	display:inline-block;
-	background:rgba(255,255,255,.1);
+	background:rgba(59, 59, 59,.4);
 }
 .login-form .group label .icon:before,
 .login-form .group label .icon:after{
 	content:'';
 	width:10px;
 	height:2px;
-	background:#fff;
+	background:#eae2cf;
 	position:absolute;
 	transition:all .2s ease-in-out 0s;
 }
@@ -133,7 +133,7 @@
 	transform:scale(0) rotate(0);
 }
 .login-form .group .check:checked + label{
-	color:#fff;
+	color:#eae2cf;
 }
 .login-form .group .check:checked + label .icon{
 	background:#1161ee;
@@ -154,8 +154,14 @@
 .hr{
 	height:2px;
 	margin:2rem 0 1rem 0;
-	background:rgba(255,255,255,.2);
+	background:rgba(59, 59, 59,.4);
 }
-.foot-lnk{
+.foot-lnk{ 
 	text-align:center;
+}
+
+.foot-lnk a, .foot-lnk label {
+	text-decoration-line: blink;
+	color: #eae2cf;
+	font-size: large;
 }
